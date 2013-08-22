@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Enhancing Productivity on OSX</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+        <section data-transition="zoom">
+        <h2>Enhancing Productivity on OSX <br/> (and some Linux)</h2>
+        </section>
+
+        <section data-transition="cube">
+          <h2>Outline</h2>
+           <ul>
+             <li>Getting Things Done&trade; (GTD)</li>
+             <li>LaunchBar and Hotkeys</li>
+             <li>Easier CLI</li>
+             <li>Turn websites into apps</li>
+             <li>Pry for all the (Ruby) things</li>
+             <li>Evernote is totally worth it</li>
+           </ul>
+        </section>
+
+
+        <section>
+          <section>
+            <h2>Gateway Drugs</h2>
+            <h3>LaunchBar, hotkeys, valuing your own time</h3>
+            <aside class="notes">
+              You have to get use to things like this.  Expect things like this.  These make sense as interface idioms, and in order to get much out of the rest of this talk, you have to believe that you **should** be able to do things more efficiently. More than that, you have to believe that it's your right as a computer user to defend your time against wasteful interfaces.
+            </aside>
+          </section>
+
+          <section>
+            <h2><a href="http://www.obdev.at/products/launchbar/index.html">LaunchBar</a></h2>
+            <ul>
+              <li>Launch apps</li>
+              <li>Switch apps</li>
+              <li>Load URLs</li>
+              <li>Create easy custom behaviors</li>
+            </ul>
+            <aside>
+              <ul>
+                <li>DEMO: Open Firefox</li>
+                <li>DEMO: Google something</li>
+                <li>DEMO: get to Pro Pull Requests</li>
+                <li>DEMO: get to Pro wiki</li>
+                <li>DEMO: Open a Redmine ticket</li>
+              </ul>
+            </aside>
+          </section>
+
+        </section>
+
+        <section>
+          <h2>Getting Things Done&trade;</h2>
+          <ul>
+            <li><a href="http://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280">A book</a> by David Allen</li>
+            <li>A way to capture and prioritize all of the little things you need to do</li>
+            <li>An excellent way to ensure your mind is spent thinking and not fretting about obligations</li>
+          </ul>
+
+          <aside class="notes">
+            <ul>
+              <li>GTD's heart is the trusted system</li>
+              <li>GTD is about immediate capturing</li>
+              <li>There's a tempatation that you can do GTD w/ the web app, but I don't think so - no web app has an instant add functionality</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <h2>OmniFocus</h2>
+          <ul>
+            <li><a href="http://www.omnigroup.com/products/omnifocus/">A GTD tool for OSX and iOS</a></li>
+            <li>Includes sync service and painless add from anywhere on computer</li>
+          </ul>
+          <aside class="notes">
+          No matter what you're doing, you should be able to add something new.  "Capturing" and continuing with your work. [[DEMO]]
+          </aside>
+        </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        //transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
