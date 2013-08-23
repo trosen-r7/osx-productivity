@@ -44,11 +44,11 @@
         <section data-transition="cube">
           <h2>Outline</h2>
            <ul>
-             <li>Getting Things Done&trade; (GTD)</li>
              <li>LaunchBar and Hotkeys</li>
+             <li>Getting Things Done&trade; (GTD)</li>
              <li>Easier CLI</li>
+             <li>Pry</li>
              <li>Turn websites into apps</li>
-             <li>Pry for all the (Ruby) things</li>
              <li>Evernote is totally worth it</li>
            </ul>
         </section>
@@ -64,17 +64,18 @@
           </section>
 
           <section>
-            <h2><a href="http://www.obdev.at/products/launchbar/index.html">LaunchBar</a></h2>
+            <h2><a href="http://www.obdev.at/products/launchbar/index.html" target="_blank">LaunchBar</a></h2>
             <ul>
               <li>Launch apps</li>
               <li>Switch apps</li>
               <li>Load URLs</li>
               <li>Create easy custom behaviors</li>
             </ul>
-            <aside>
+            <aside class="notes">
               <ul>
                 <li>DEMO: Open Firefox</li>
                 <li>DEMO: Google something</li>
+                <li>DEMO: Wikipedia search</li>
                 <li>DEMO: get to Pro Pull Requests</li>
                 <li>DEMO: get to Pro wiki</li>
                 <li>DEMO: Open a Redmine ticket</li>
@@ -82,38 +83,198 @@
             </aside>
           </section>
 
+          <section>
+            <h2>HotKeys</h2>
+            <ul>
+              <li>Re-map Caps Lock to Ctrl</li>
+              <li>Cmd-[Arrow] to jump to beginning/end of line</li>
+              <li>Emacs-ish hotkeys (Ctrl-A, Ctrl-E) work in many apps</li>
+              <li>Cmd-Tab to toggle between apps</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Spotlight Search</h2>
+            <ul>
+              <li>Full-text indexing of tons of stuff</li>
+              <li>Even get previews from many apps</li>
+              <li>Never wonder where you put something again</li>
+            </ul>
+          </section>
         </section>
 
         <section>
-          <h2>Getting Things Done&trade;</h2>
-          <ul>
-            <li><a href="http://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280">A book</a> by David Allen</li>
-            <li>A way to capture and prioritize all of the little things you need to do</li>
-            <li>An excellent way to ensure your mind is spent thinking and not fretting about obligations</li>
-          </ul>
+          <section>
+            <h2>Getting Things Done&trade;</h2>
+            <ul>
+              <li><a href="http://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280">A book</a> by David Allen</li>
+              <li>A way to capture and prioritize all of the little things you need to do</li>
+              <li>An excellent way to ensure your mind is spent thinking and not fretting about obligations</li>
+            </ul>
 
+            <aside class="notes">
+              <ul>
+                <li>GTD's heart is the trusted system</li>
+                <li>GTD is about immediate capturing</li>
+                <li>There's a tempatation that you can do GTD w/ the web app, but I don't think so - no web app has an instant add functionality</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h2>You don't have to read the book</h2>
+            <h4>(Free flowcharts FTW)</h4>
+            <ul>
+              <li><a href="http://www.grueiro.ch/blog/?p=914" target="_blank">Super-detailed one</a></li>
+              <li><a href="http://images.tribe.net/tribe/upload/photo/7a3/a90/7a3a90ef-7326-49ba-bfeb-1f093003c793" target="_blank">More useful one</a></li>
+            </ul>
+
+            <aside class="notes">
+              <ul>
+                <li>Your brain is for thinking - not tracking</li>
+                <li>Only by capturing, organizing, and reviewing in an ongoing flow can you achieve sanity</li>
+                <li>The feeling that yes, you've captured it all is addicting</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h2>OmniFocus</h2>
+            <ul>
+              <li><a href="http://www.omnigroup.com/products/omnifocus/">A GTD tool for OSX and iOS</a></li>
+              <li>Includes sync service and painless add from anywhere on computer</li>
+            </ul>
+            <aside class="notes">
+            No matter what you're doing, you should be able to add something new.  "Capturing" and continuing with your work. [[DEMO]]
+            </aside>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>CLI Awesomesauce</h2>
+            <ul>
+              <li>iTerm 2</li>
+              <li>ZSH</li>
+              <li>Oh My Zsh!</li>
+              <li>ack not grep</li>
+              <li>Ctrl-r for your hands' sake</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>iTerm 2</h2>
+            <ul>
+              <li>Replacement for OS X Terminal</li>
+              <li>Split screens</li>
+              <li>Different "profiles" encapsulate settings</li>
+              <li>Visual bell</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>ZSH</h2>
+            <ul>
+              <li><a href="http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692" target="_blank">bash hates you</a></li>
+              <li><a href="http://linuxaria.com/howto/globbing-con-zsh?lang=en" target="_blank">zsh globbing</a></li>
+              <li><a href="http://zsh.sourceforge.net/FAQ/zshfaq04.html#" target="_blank">tab completion</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Extending ZSH</h2>
+            <ul>
+              <li><a href="https://github.com/robbyrussell/oh-my-zsh#">oh-my-zsh</a></li>
+              <li><a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a></li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>ZSH gets you great prompt options as well as Ruby, RVM, Git, Rails integration etc</li>
+                <li>syntax highlighting is just awesome -- demo!</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h2>Ack Not Grep</h2>
+            <ul>
+              <li><a href="http://beyondgrep.com">Ack</a> is usually what you want</li>
+              <li>Mac: <pre>brew install ack</pre></li>
+              <li>Linux: <pre>apt-get install ack-grep</pre></li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>faster than grep b/c it does less</li>
+                <li>usually want to find strings in source code</li>
+                <li>highlighting for your search and line numbers by default</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h2>ctrl-r</h2>
+            <ul>
+              <li>Dude, your shell remembers your commands</li>
+              <li>zsh even filters it for you to help</li>
+            </ul>
+
+            <aside class="notes">
+              <ul>
+                <li>Always surprised by how little this gets used by exp'd people</li>
+                <li>It remembers!</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h2>Pry!</h2>
+            <h3>For all the Ruby things</h3>
+            <ul>
+              <li>syntax highlighting</li>
+              <li>pagination of large data structures</li>
+              <li>ability to stop execution</li>
+            </ul>
+
+            <aside class="notes">
+              <ul>
+                <li>ls - all local variables</li>
+                <li>wtf - show last exception</li>
+                <li>execute shell commands with '.'</li>
+                <li>help - gives you lots of info</li>
+              </ul>
+            </aside>
+          </section>
+        </section>
+
+        <section>
+          <h2><a href="http://fluidapp.com">Fluid</a></h2>
+          <h3>Turn websites into apps</h3>
+          <ul>
+            <li>stop looking for the tab you have PT in</li>
+            <li>treat common web pages like apps</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Evernote</h2>
+          <h3>Totally worth the annual cost, kinda life-changing</h3>
+          <ul>
+            <li>Effortless organization of notes</li>
+            <li>track expenses</li>
+            <li>save web stuff</li>
+            <li>$45/year is a steal</li>
+          </ul>
           <aside class="notes">
             <ul>
-              <li>GTD's heart is the trusted system</li>
-              <li>GTD is about immediate capturing</li>
-              <li>There's a tempatation that you can do GTD w/ the web app, but I don't think so - no web app has an instant add functionality</li>
+              <li>Share things selectively if you need to</li>
+              <li>support for integrating multiple kinds of things together in one doc</li>
+              <li>Make annotated screenshots</li>
+              <li>OTR business cards</li>
+              <li>save anything and find it again</li>
             </ul>
           </aside>
         </section>
 
-        <section>
-          <h2>OmniFocus</h2>
-          <ul>
-            <li><a href="http://www.omnigroup.com/products/omnifocus/">A GTD tool for OSX and iOS</a></li>
-            <li>Includes sync service and painless add from anywhere on computer</li>
-          </ul>
-          <aside class="notes">
-          No matter what you're doing, you should be able to add something new.  "Capturing" and continuing with your work. [[DEMO]]
-          </aside>
-        </section>
-
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
